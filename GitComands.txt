@@ -3,3 +3,5 @@ git init
 git commit
 git add
 git branch
+git push
+git pull
