@@ -1,0 +1,31 @@
+using System;
+
+namespace IO_practice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter name of person who has a birthday soon");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Enter current age");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter birthday");
+            string date = Console.ReadLine();
+
+            Console.WriteLine("Enter a present");
+            string present = Console.ReadLine();
+
+            Console.WriteLine("Enter a giver");
+            string nameOfGiver = Console.ReadLine();
+
+            Console.Clear();
+
+            Console.WriteLine($"{name} has a birthday soon!");
+
+            Console.WriteLine($" Current age: {age} \n Birthday: {date} \n Present: {present} \n Giver: {nameOfGiver} ");
+        }
+    }
+}
